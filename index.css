@@ -33,12 +33,12 @@ i{
     padding-left: 5px;
 }
 .second{
-    width: 120%;
+    width: 100%;
    display: flex;
     color: white; 
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 ul{
@@ -61,7 +61,7 @@ font-size: 20px;
 .third{
     padding-left: 20px;
     width: 50%;
-    padding-right: 10px;
+   
 }
 .left{
     
@@ -113,37 +113,21 @@ padding-top: 30px;
 .logoz{
     list-style-type: none;
     display: flex;
-
 }
 .conts{
     width: 100%;
   display: flex;
-  padding-top: 30px;
+ padding-bottom: 40px;
 justify-content: space-evenly;
 }
-.mangotrees{
-    width: 100%;
-    color: black;
-    text-shadow: 0px 0px  1px red;
-    font-weight: 5px;
-    background-image: url(faculty.jpg);
+.mangotrees{ 
+ padding-left: 30px;
     background-repeat: no-repeat;
-    padding-top: 460px;
-    text-align: center;
-    font-size: 30px;
-    font-style: italic;
-    background-size: 100%;
-    padding-bottom: 30px;
-
 }
 .motto{
-    text-align: center;
-    padding-top: 40px;
-   background-image: url(discussion.jpg);
-  padding-left: 80px;
-    height: 170%;
-    width: 100%;
-    background-repeat: no-repeat;
+    text-align: left;
+    padding-top: 30px;
+  padding-left: 20px;     
 }
 
 .course{
@@ -154,13 +138,11 @@ padding-bottom: 50px;
 }
 table{
     text-align: center;
-    
-    
 }
 .Backhome{
-    padding-top: 20px;
+    padding-top: 15px;
     padding-left: 900px;
-    font-size: 25px;
+    font-size: 20px;
 }
 .application{
      align-content: center;
@@ -168,28 +150,22 @@ table{
 .heading{
     font-family: Papyrus;
     display: flex;
-    padding-left: 30%;
-    
+    padding-left: 30%;  
 }
 .heading2{
     padding-top: 20px;
     padding-left: 30%;
 }
     .application{
-background-color: white;
-
-
-    
+background-color: white;  
 }
 #format1{
-    color: red;
-    
+    color: red;  
 }
 #format2{
     padding-top: 3px;
     padding-right: 18px;
     font-size: 30px;
-
 }
 .umulogo{
     padding-left: 38%;
@@ -227,19 +203,17 @@ th{
     padding-bottom: 15px;
    height: 40px;
    padding-left: 20px;
-   padding-top: 15px;
+   padding-top: 20px;
    display: flex;
    font-weight: bold;
     font-size: 20px;
     text-shadow: 2px 2px 2px red;
-font-style: italic;
 font-family: Yu Mincho Light;
 }
 .b-img{
     background:   rgb(44, 16, 16);
 
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat; 
 }
 .dropdown{
     padding-left: 40px;
@@ -249,11 +223,8 @@ font-family: Yu Mincho Light;
     padding-left: 40px;
 }
 .bg{
- font-size: 20px;
-text-shadow: 5px 5px 5px black;
-    align-content: center;
-    padding-left: 20%;
-   
- padding-right: 25%;
-    color: white;
+ font-size: 15px;
+text-shadow: 0px 0px 1px red;
+    padding-left: 20px;
+    color: black;
 }
