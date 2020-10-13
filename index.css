@@ -1,0 +1,259 @@
+body{
+    background-color: rgb(243, 222, 222);
+}
+.rule1{
+    display: flex;
+    background-color:  rgb(44, 16, 16);
+    width: 100%;
+    height: 70px;
+    color: mintcream;
+    
+}
+.rule2{
+    background-color: orangered;
+    width: 100%;
+    height: 5px;
+}
+.umu{
+    width: 10%;
+    height: 70px;
+}
+.faculty{
+    padding-left: 200px;
+    font-weight: bold;
+    font-size: 35px;
+    padding-top: 10px;
+    text-shadow: 2px 2px 2px red;
+    font-family: Yu Mincho Light;
+
+}
+i{
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+.second{
+    width: 120%;
+   display: flex;
+    color: white; 
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+ul{
+    padding-top: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.enrol{
+    padding-left:60%;
+padding-top: 40px;
+font-size: 20px;
+
+}
+.middle{
+    display: flex;
+    height: 80%;
+}
+.third{
+    padding-left: 20px;
+    width: 50%;
+    padding-right: 10px;
+}
+.left{
+    
+    padding-top: 20px;
+    padding-left: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: georgia;
+}
+#logo{
+    width: 20px;
+    padding-left: 40px;
+    padding-top: 25px;
+
+}
+.lower{
+    padding-top: 0px;
+padding-left: 40%;
+}
+.carousel-inner{
+    width: 100%;
+    height: 100%;  
+}
+.image1{
+    width: 100%;  
+}
+.people{
+    width: 50%;
+    height: 50%;
+}
+form{
+padding-left: 15%;
+padding-right: 15%;
+padding-top: 30px;
+
+}
+.button{
+    width: 250px;
+}
+.cancel{
+    padding-left: 50px;
+    
+}
+.log{
+    display: flex;
+    justify-content: 20px;
+}
+.logoz{
+    list-style-type: none;
+    display: flex;
+
+}
+.conts{
+    width: 100%;
+  display: flex;
+  padding-top: 30px;
+justify-content: space-evenly;
+}
+.mangotrees{
+    width: 100%;
+    color: black;
+    text-shadow: 0px 0px  1px red;
+    font-weight: 5px;
+    background-image: url(faculty.jpg);
+    background-repeat: no-repeat;
+    padding-top: 460px;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    background-size: 100%;
+    padding-bottom: 30px;
+
+}
+.motto{
+    text-align: center;
+    padding-top: 40px;
+   background-image: url(discussion.jpg);
+  padding-left: 80px;
+    height: 170%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.course{
+    width: 100%;
+    padding-top: px;
+padding-left: 100px;
+padding-bottom: 50px;
+}
+table{
+    text-align: center;
+    
+    
+}
+.Backhome{
+    padding-top: 20px;
+    padding-left: 900px;
+    font-size: 25px;
+}
+.application{
+     align-content: center;
+}
+.heading{
+    font-family: Papyrus;
+    display: flex;
+    padding-left: 30%;
+    
+}
+.heading2{
+    padding-top: 20px;
+    padding-left: 30%;
+}
+    .application{
+background-color: white;
+
+
+    
+}
+#format1{
+    color: red;
+    
+}
+#format2{
+    padding-top: 3px;
+    padding-right: 18px;
+    font-size: 30px;
+
+}
+.umulogo{
+    padding-left: 38%;
+}
+.slogan{
+    font-style: italic;
+    color: red;
+    padding-left: 70%;
+    padding-top: 20px;
+}
+ #label{
+    padding-left: 40px;
+}
+#female{
+    padding-left: 270px;
+}
+#subheader{
+    padding-left: 40px;
+}
+.education{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+th{
+    background-color: rgb(68, 49, 49);
+    color: white;
+}
+.costitle{
+    padding-top: 20px;
+}
+.studyhr{
+    padding-left: 180px;
+}
+.best{
+    padding-bottom: 15px;
+   height: 40px;
+   padding-left: 20px;
+   padding-top: 15px;
+   display: flex;
+   font-weight: bold;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px red;
+font-style: italic;
+font-family: Yu Mincho Light;
+}
+.b-img{
+    background:   rgb(44, 16, 16);
+
+    background-repeat: no-repeat;
+    
+}
+.dropdown{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.the-rest{
+    padding-left: 40px;
+}
+.bg{
+ font-size: 20px;
+text-shadow: 5px 5px 5px black;
+    align-content: center;
+    padding-left: 20%;
+   
+ padding-right: 25%;
+    color: white;
+}
