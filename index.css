@@ -19,13 +19,20 @@ body{
     height: 70px;
 }
 .faculty{
-    padding-left: 200px;
+    padding-left: 10px;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 30px;
     padding-top: 10px;
     text-shadow: 2px 2px 2px red;
-    font-family: Yu Mincho Light;
+    font-family: PAPYRUS;
+    display: flex;
 
+}
+#agry{
+    padding: 10px;
+    padding-left: 280px;
+    font-family: Yu Mincho Light;
+    font-size: larger;
 }
 i{
     font-size: 30px;
@@ -36,9 +43,9 @@ i{
     width: 100%;
    display: flex;
     color: white; 
-    padding-top: 40px;
-    padding-left: 50px;
-    padding-right: 30px;
+    padding-top: 30px;
+    padding-left: 10px;
+   
 }
 
 ul{
@@ -50,7 +57,7 @@ ul{
 }
 .enrol{
     padding-left:60%;
-padding-top: 40px;
+padding-top: 20px;
 font-size: 20px;
 
 }
@@ -71,11 +78,7 @@ font-size: 20px;
     font-size: 20px;
     text-decoration: underline;
     font-family: georgia;
-}
-#logo{
-    width: 20px;
-    padding-left: 40px;
-    padding-top: 25px;
+
 
 }
 .lower{
@@ -83,7 +86,7 @@ font-size: 20px;
 padding-left: 40%;
 }
 .carousel-inner{
-    width: 100%;
+    width: 120%;
     height: 100%;  
 }
 .image1{
@@ -100,7 +103,11 @@ padding-top: 30px;
 
 }
 .button{
-    width: 250px;
+    width: 250px; 
+}
+form #label::after{
+    content: "*";
+    color: red;
 }
 .cancel{
     padding-left: 50px;
@@ -140,7 +147,7 @@ table{
     text-align: center;
 }
 .Backhome{
-    padding-top: 15px;
+    padding-top: 8px;
     padding-left: 900px;
     font-size: 20px;
 }
@@ -169,12 +176,14 @@ background-color: white;
 }
 .umulogo{
     padding-left: 38%;
+    height: 40px;
+    padding-bottom: 5px;
 }
 .slogan{
     font-style: italic;
     color: red;
     padding-left: 70%;
-    padding-top: 20px;
+    padding-top: 40px;
 }
  #label{
     padding-left: 40px;
@@ -200,15 +209,15 @@ th{
     padding-left: 180px;
 }
 .best{
-    padding-bottom: 15px;
-   height: 40px;
+    padding-bottom: 5px;
+  
    padding-left: 20px;
    padding-top: 20px;
    display: flex;
    font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     text-shadow: 2px 2px 2px red;
-font-family: Yu Mincho Light;
+font-family: papyrus;
 }
 .b-img{
     background:   rgb(44, 16, 16);
@@ -240,6 +249,29 @@ text-shadow: 0px 0px 1px red;
 .back{
    
     padding-left: 80%;
-    font-size: 18px;
-    
+    font-size: 18px; 
+}
+#star{
+    color: red;
+    font-weight: bolder;
+}
+.req{
+    padding-right: 70%;
+    padding-bottom: 10px;
+    padding-left: 40px;
+}
+.carousel-caption{
+    color: pink;
+    text-indent: 50px;
+    text-shadow: 3px 3px 5px black;
+}
+.fa-phone{
+    display: flex;
+}
+#contheading{
+    color: red;
+    text-shadow: 0px 0px 1px black;
+}
+.main{
+    padding-left: 0px;
 }

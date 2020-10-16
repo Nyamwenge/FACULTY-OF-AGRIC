@@ -8,26 +8,26 @@
 <link rel="stylesheet" type="text/css" href="index.css">
 <script src="application.js"></script>
 <body>
-    <form margin="3px"><div class="application"><div class="heading"><h1 id="format1">U</h1><h2 id="format2">ganda</h2>
+    <form name="application" method="post" margin="3px" onsubmit="return formValidation();"><div class="application"><div class="heading"><h1 id="format1" >U</h1><h2 id="format2">ganda</h2>
         <h1 id="format1">M</h1><h2 id="format2"> artyrs </h2>
         <h1 id="format1">U</h1><h2 id="format2">niversity</h2></div>
         <div class="umulogo"><img src="umu.jpg"></div>
         <div class="slogan">"making a difference"</div>
             <hr width="70%">
         
-        <div class="heading2"><h2>STUDENT'S APPLICATION FORM</h2></div>
-<label id="label" aria-required="true">SURNAME: *</label>
+        <div class="heading2"><h2>STUDENT'S APPLICATION FORM</h2></div> <div class="req">Required Field <text id="star">*</text></div>
+<label id="label" >SURNAME:</label>
 <input type="text" name="aa" class="button" id="input1">
-<label id="label">FNAME: *</label>
-<input type="text" name="bb"class="button"  id="input2">
+<label id="label">FNAME:</label>
+<input type="text" name="aa"class="button"  id="input2">
 <p id="label">MALE <input type="radio" name="gender" ><label id="female">
     FEMALE</label><input type="radio" name="gender" ></p>
     <label id="label">DATE OF BIRTH: </label>
 <input type="text" name="date" placeholder= "in the format; dd/mm/yyyy" class="button" >
 <label id="label">RELIGION: </label>
-<input type="text" name="ANY" class="button" ><P>
+<input type="text" name="aa" class="button" ><P>
     <label id="label">MOBILE N<u>0</u>: </label>
-<input type="text" name="mobile" class="button">
+<input type="text" name="bb" class="button">
 <label id="label">EMAIL: </label>
 <input type="text" name="MAIL" class="button" ><P>
 <p><p>
@@ -36,60 +36,60 @@
 
 
     <label id="label">COUNTRY: </label>
-    <input type="text" name="cc" class="button">
+    <input type="text" name="aa" class="button">
         <label id="label">DISTRICT: </label>
-        <input type="text" name="ddclass="button"><p>
+        <input type="text" name="aa" class="button"><p>
             <label id="label">COUNTY: </label>
-            <input type="text" name="ee"class="button">
+            <input type="text" name="aa"class="button">
                 <label id="label"> SUB COUNTY: </label>
-                <input type="text" name="ff" class="button"><p>
+                <input type="text" name="aa" class="button"><p>
                     <label id="label">VILLAGE: </label>
-                    <input type="text" name="gg"  class="button"><p><p>
+                    <input type="text" name="aa"  class="button"><p><p>
                    <b id="subheader">PLACE OF RESIDENCE</b><p>                
                            <label id="label">COUNTRY: </label>
-                    <input type="text" name="hh" class="button">
+                    <input type="text" name="aa" class="button">
                     <label id="label">DISTRICT: </label>
-                    <input type="text" name="ii" class="button"><p>
+                    <input type="text" name="aa" class="button"><p>
                         <label id="label">COUNTY: </label>
-            <input type="text" name="jj"  class="button">   
+            <input type="text" name="aa"  class="button">   
             <label id="label"> SUB COUNTY: </label>
-                <input type="text" name="kk"class="button"><p> 
+                <input type="text" name="aa"class="button"><p> 
                     <label id="label">VILLAGE: </label>
-                    <input type="text" name="ll" class="button"><p><p>
-                        <b id="subheader">FATHER'S DETAILS (if alive)</b><p>  
+                    <input type="text" name="aa" class="button"><p><p>
+                        <b id="subheader">FATHER'S DETAILS (if alive & if deceased enter male next of kin's details)</b><p>  
                             <label id="label">SURNAME:</label>
-<input type="text" name="mm"  class="button">
+<input type="text" name="aa"  class="button">
 <label id="label">FNAME:</label>
-<input type="text" name="nn" class="button"><p></p>
+<input type="text" name="aa" class="button"><p></p>
 <label id="label">ADDRESS:</label>
-<input type="text" name="oo"  class="button">
+<input type="text" name="aa"  class="button">
 <label id="label">OCCUPATION:</label>
-<input type="text" name="pp"  class="button"><p>
+<input type="text" name="aa"  class="button"><p>
 <label id="label">TELEPHONE:</label>
-<input type="text" name="qq" class="button"><p><p>
-<b id="subheader">MOTHER'S DETAILS (if alive)</b><p>  
+<input type="text" name="bb" class="button"><p><p>
+<b id="subheader">MOTHER'S DETAILS (if alive & if deceased enter female next of kin's details here)</b><p>  
     <label id="label">SURNAME:</label>
-<input type="text" name="rr" class="button">
+<input type="text" name="aa" class="button">
 <label id="label">FNAME:</label>
-<input type="text" name="ss" class="button"><p></p>
+<input type="text" name="aa" class="button"><p></p>
 <label id="label">ADDRESS:</label>
-<input type="text" name="tt"  class="button">
+<input type="text" name="aa"  class="button">
 <label id="label">OCCUPATION:</label>
-<input type="text" name="uu" class="button"><p>
+<input type="text" name="aa" class="button"><p>
 <label id="label">TELEPHONE:</label>
-<input type="text" name="vv" class="button">
+<input type="text" name="bb" class="button">
 </p><p><p>
     
     <label id="label"><b> COURSE ENROLLING FOR: </b></label>
-    <input type="text" name="course" class="button"><p><p>
+    <input type="text" name="aa" class="button"><p><p>
       <b id="label"> TIME OF STUDY: </b><p>
         <div class="studyhr"> 
         FULL TIME (FT)
-    <input type="radio" name="check">
+    <input type="radio" name="check">&nbsp;&nbsp;
         PART TIME (PT)
-        <input type="radio" name="check">
+        <input type="radio" name="check">&nbsp;&nbsp;
         MORNING HOURS
-        <input type="radio" name="check" >
+        <input type="radio" name="check" >&nbsp;&nbsp;
         EVENNING HOURS
         <input type="radio" name="check">
     </div><p>
@@ -117,46 +117,49 @@
       <b> APPLICANT'S EDUCATION BACKGROUND</b><p> 
         <tr><th><h3>Level of Education</h3></th><th><h3>Institution/School</h3></th><th><h3>Points/Aggregates scored</h3></th></tr>
        <tr><th colspan="3">Universities Attended</th></tr>
-       <tr><td ><input type="text" name="ww" class="button"></td>
-        <td><input type="text" name="ab" class="button"><td><input type="text" name="ac" class="button"></td></tr>
-        <tr ><td><input type="text" name="xx" class="button"></td><td><input type="text" name="yy" class="button">
-            <td><input type="text" name="zz"class="button"></td></tr>
-            <tr ><td><input type="text" name="ad" class="button"></td><td><input type="text" name="ae" class="button">
-                <td><input type="text" name="af"class="button"></td></tr>
+       <tr ><td ><input type="text" name="aa" class="button" required></td>
+        <td><input type="text" name="aa" class="button" required><td><input type="text" name="aa" class="button" required></td></tr>
+        <tr ><td><input type="text" name="aa" class="button"></td><td><input type="text" name="aa" class="button">
+            <td><input type="text" name="aa"class="button"></td></tr>
+            <tr ><td><input type="text" name="aa" class="button"></td><td><input type="text" name="aa" class="button">
+                <td><input type="text" name="aa"class="button"></td></tr>
                 <tr><th colspan="3">Tertiary instiutions Attended (if any)</th></tr>
-                <tr ><td><input type="text" name="ag" class="button"></td><td><input type="text" name="ah" class="button">
-                    <td><input type="text" name="ai"class="button"></td></tr>
-                    <tr ><td><input type="text" name="aj" class="button"></td><td><input type="text" name="ak" class="button">
+                <tr ><td><input type="text" name="aa" class="button" required></td><td><input type="text" name="aa" class="button" required>
+                    <td><input type="text" name="aa"class="button" required></td></tr>
+                    <tr ><td><input type="text" name="aa" class="button"></td><td><input type="text" name="ak" class="button">
                         <td><input type="text" name="al"class="button"></td></tr>
                         <tr ><td><input type="text" name="am" class="button"></td><td><input type="text" name="an" class="button">
                             <td><input type="text" name="ao"class="button"></td></tr>
                             <tr><th colspan="3">A' Level Schools Attended</th></tr>
-                            <tr ><td><input type="text" name="ap" class="button"></td><td><input type="text" name="aq" class="button">
-                                <td><input type="text" name="ar"class="button"></td></tr><tr ><td><input type="text" name="as" class="button"></td><td><input type="text" name="ao" class="button">
+                            <tr ><td><input type="text" name="ap" class="button" required></td><td>
+                                <input type="text" name="aq" class="button" required>
+                                <td><input type="text" name="ar"class="button" required></td></tr><tr ><td><input type="text" name="as" class="button"></td><td><input type="text" name="ao" class="button">
                                     <td><input type="text" name="as"class="button"></td></tr><tr ><td><input type="text" name="au" class="button"></td><td><input type="text" name="ao" class="button">
                                         <td><input type="text" name="av"class="button"></td></tr>
                                         <tr><th colspan="3">O' Level Schools Attended </th></tr>
-                                        <tr ><td><input type="text" name="aw" class="button"></td><td><input type="text" name="ax" class="button">
-                                            <td><input type="text" name="ay"class="button"></td></tr>
+                                        <tr ><td><input type="text" name="aw" class="button" required></td>
+                                            <td><input type="text" name="ax" class="button" required>
+                                            <td><input type="text" name="ay"class="button" required></td></tr>
                                             <tr ><td><input type="text" name="az" class="button"></td><td><input type="text" name="bc" class="button">
                                                 <td><input type="text" name="bd"class="button"></td></tr>
                                                 <tr ><td><input type="text" name="be" class="button"></td><td><input type="text" name="bf" class="button">
                                                     <td><input type="text" name="bg"class="button"></td></tr>
                                                     <tr><th colspan="3">Primary School Attended </th></tr>
-                                                    <tr ><td><input type="text" name="bh" class="button"></td><td><input type="text" name="hi" class="button">
-                                                        <td><input type="text" name="bj"class="button"></td></tr>                                                  
+                                                    <tr ><td><input type="text" name="bh" class="button" required></td>
+                                                        <td><input type="text" name="hi" class="button" required>
+                                                        <td><input type="text" name="bj"class="button" required></td></tr>                                                  
                                                     </table>                                         
     </div>
     <div class="the-rest">
 <p><b>HOW DID YOU COME TO KNOW ABOUT UGANDA MARTYRS UNIVERSITY?</b></p>
 THROUGH A FRIEND/RELATIVE
-<input type="radio" name="check">
+<input type="radio" name="check">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 THROUGH ADVERTISEMENT
-    <input type="radio" name="check" id="rad"><br>
+    <input type="radio" name="check" id="rad"><p>
     OVER THE RADIO
-    <input type="radio" name="check" >
+    <input type="radio" name="check" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     THROUGH A PARENT/GUARDIAN
-    <input type="radio" name="check"><br><p>
+    <input type="radio" name="check">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     THROUGH SOCIAL MEDIA
     <input type="radio" name="check" ><br>
     <br>
@@ -168,10 +171,10 @@ IF NONE OF THE ABOVE, PLEASE SPECIFY HERE:
     <p>
         <p>
     
-   <input type="button" value="SUBMIT" onclick="apply()">
+  <input type="button" value="SUBMIT" onClick="submitClick( )" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
    <a href="index.html">
-    <input type="button" value="CANCEL"></a>
-                </p><p></div>
+    <input type="button" value="CANCEL"></a><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </div>
 
     </div></form>
 

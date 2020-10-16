@@ -1,15 +1,29 @@
-function thanks () {
-    let user=document.getElementById("name").value;
-    let email=document.getElementById("mail").value;
-    let pass =document.getElementById("pass").value;
-    alert ("welcome "+user);
-    if (user==""){
-        alert("please input username");
-    }else if(email==""){
-        alert("please enter your email");
-    }else if(pass==""){
-        alert("please input your password");
-    }else{
+function thanks() {
+    if (success()) {
         window.open("application.html");
+      return true;
+    } else {
+      return false;
     }
+  }
+  function success() {
+    flag = true;
+    alert ("welcome "+document.provide.ff.value);
+    if (document.provide.ff.value == "") {
+        alert("please input username");
+        
+      flag = false;
+    }
+// Validate letters only as Name
+if (!/^[a-zA-Z]*$/g.test(document.provide.ff.value)) {
+    alert("Enter alphabetic characters as Name!");
+    flag = false;
+  }
+  if (document.provide.gg.value == "") {
+    alert("please input your email");
+  flag = false;
+}
+
+ 
+   return flag;
 }
