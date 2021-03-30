@@ -1,5 +1,7 @@
 body{
     background-color: rgb(243, 222, 222);
+    width: 100%; padding-left: 10px; padding-right: 10px;
+    font-family: 'Times New Roman', Times, serif;
 }
 .rule1{
     display: flex;
@@ -19,17 +21,19 @@ body{
     height: 70px;
 }
 .faculty{
-    padding-left: 10px;
+    padding-left: 1px;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
     padding-top: 10px;
     text-shadow: 2px 2px 2px red;
     font-family: PAPYRUS;
     display: flex;
 
+}.welcome{
+    font-size: large;
 }
 #agry{
-    padding: 10px;
+    padding: 5px;
     padding-left: 280px;
     font-family: Yu Mincho Light;
     font-size: larger;
@@ -40,7 +44,7 @@ i{
     padding-left: 5px;
 }
 .second{
-    width: 100%;
+
    display: flex;
     color: white; 
     padding-top: 30px;
@@ -57,7 +61,7 @@ ul{
 }
 .enrol{
     padding-left:60%;
-padding-top: 20px;
+padding-top: 30px;
 font-size: 20px;
 
 }
@@ -86,7 +90,7 @@ font-size: 20px;
 padding-left: 40%;
 }
 .carousel-inner{
-    width: 120%;
+    width: 100%;
     height: 100%;  
 }
 .image1{
@@ -109,6 +113,10 @@ form #label::after{
     content: "*";
     color: red;
 }
+table #label::before{
+content: "*";
+color: red;
+}
 .cancel{
     padding-left: 50px;
     
@@ -127,8 +135,11 @@ form #label::after{
  padding-bottom: 40px;
 justify-content: space-evenly;
 }
+.conts>a:hover{
+    color: rgb(206, 54, 54) !important;
+}
 .mangotrees{ 
- padding-left: 30px;
+ padding-left: 10px;
     background-repeat: no-repeat;
 }
 .motto{
@@ -158,6 +169,7 @@ table{
     font-family: Papyrus;
     display: flex;
     padding-left: 30%;  
+    padding-top: 20px;
 }
 .heading2{
     padding-top: 20px;
@@ -207,6 +219,7 @@ th{
 }
 .studyhr{
     padding-left: 180px;
+    padding-bottom: 20px;
 }
 .best{
     padding-bottom: 5px;
@@ -225,6 +238,7 @@ font-family: papyrus;
     background-repeat: no-repeat; 
 }
 .dropdown{
+    padding-top: 20px;
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -245,6 +259,7 @@ text-shadow: 0px 0px 1px red;
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
+    font-size: large;
 }
 .back{
    
@@ -274,4 +289,13 @@ text-shadow: 0px 0px 1px red;
 }
 .main{
     padding-left: 0px;
+}li >a{
+    color: black;
+    font-size: small;
+}li >a:hover{
+    color: rgb(206, 54, 54) !important;
+}.enrol>a:hover{
+    color: rgb(206, 54, 54) !important;
+}.last{
+    width: 100%;
 }
